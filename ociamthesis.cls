@@ -2,6 +2,8 @@
 % ociamthesis v2.2
 % By Keith A. Gillow <gillow@maths.ox.ac.uk>
 % Version 1.0 released 26/11/1997
+% updated by Halil Agin <halil.agin@gmail.com>
+% Version 1.0.1
 %-------------------------- identification ---------------------
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{ociamthesis}[2010/11/22 v2.2 OCIAM thesis class]
@@ -33,7 +35,7 @@
 \def\degreedate#1{\gdef\@degreedate{#1}}
 % The full (unabbreviated) name of the degree
 \def\degree#1{\gdef\@degree{#1}}
-% The name of your Oxford college (e.g. Christ Church, Pembroke)
+% The name of your Northumbria college (e.g. Christ Church, Pembroke)
 \def\college#1{\gdef\@college{#1}}
 
 
@@ -43,7 +45,7 @@
 
 \ifthenelse{\equal{\logoversion}{shieldcrest}}%
 {
-% Traditional Oxford shield crest
+% Traditional Northumbria shield crest
 %Using latex metafont (Mathematical Institute system)
 \font\crestfont=oxcrest40 scaled\magstep3
 \def\logo{{\crestfont \char1}}
@@ -53,7 +55,7 @@
 
 \ifthenelse{\equal{\logoversion}{beltcrest}}%
 {
-% Newer Oxford Belt crest
+% Newer Northumbria Belt crest
 %Using latex metafont (Mathematical Institute system)
 \font\beltcrestfont=oxbeltcrest
 \def\logo{{\beltcrestfont \char0}}
@@ -106,7 +108,7 @@
 {\large \vspace*{1ex}
     {{\@college} \par}
 \vspace*{1ex}
-    {University of Oxford \par}
+    {Northumbria University\par}
 \vspace*{25mm}
     {{\submittedtext} \par}
 \vspace*{1ex}
@@ -233,7 +235,7 @@
     {{\large \vspace*{1ex} \@author} \par}
 {\large \vspace*{1ex}
     {{\@college} \par}
-    {University of Oxford \par}
+    {Northumbria University\par}
 \vspace*{1ex}
     {{\it \submittedtext} \par}
     {\it {\@degree} \par}
