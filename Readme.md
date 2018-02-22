@@ -19,6 +19,10 @@ to be completed.
 
 see epigraph.pdf file in [here](https://ctan.org/tex-archive/macros/latex/contrib/epigraph?lang=en)
 
+# Margin notes
+
+If you like to add margin notes, see [this](https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes)
+
 # Next to do
 1. Adapt the margins
 1. Include the high quality logo
