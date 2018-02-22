@@ -15,7 +15,9 @@ $> sh run.sh
 to be completed.
 
 
+# Epigraphs
 
+see ![here](https://ctan.org/tex-archive/macros/latex/contrib/epigraph?lang=en)
 
 # Next to do
 1. Adapt the margins
