@@ -7,18 +7,29 @@ This template is based on the Oxford university's LaTeX template developed by Ke
 
 ```
 $> cd {root directory}
-$> sh run.sh
+$> sh reviwer.pdf.sh
 ```
 
-## How to produce the printable pdf file?
+## How to produce the printable (book) version?
 
-to be completed.
+```
+$> cd {root directory}
+$> sh book.pdf.sh
+```
+
+## How to produce the plain PDF version?
+
+```
+$> cd {root directory}
+$> sh digital.pdf.sh
+```
+
+
 
 
 
 
 # Next to do
-1. Adapt the margins
 1. Include the high quality logo
-1. Create LaTeX environments for the first page, abstact 
 1. Add library submission form
+
